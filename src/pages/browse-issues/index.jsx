@@ -3,6 +3,7 @@ import Sidebar from "../dashboard-landing-page/components/Sidebar.jsx";
 import FilterSideBar from "./components/FilterSideBar.jsx";
 import IssuesGrid from "./components/IssuesGrid.jsx";
 
+
 const BrowseIssues = () => {
   const [filters, setFilters] = useState({
     category: "",
