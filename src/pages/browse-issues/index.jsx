@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "../dashboard-landing-page/components/Sidebar.jsx";
 import FilterSideBar from "./components/FilterSideBar.jsx";
 import IssuesGrid from "./components/IssuesGrid.jsx";
+// Assuming Tailwind CSS is being used for styling
 
 
 const BrowseIssues = () => {
