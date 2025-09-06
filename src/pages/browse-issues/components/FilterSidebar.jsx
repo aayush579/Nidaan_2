@@ -4,7 +4,7 @@ import Button from "../../../components/Button";
 import Icon from "../../../components/AppIcon";
 import LocationPicker from "../../../components/LocationPicker";
 
-const FilterSideBar = ({ filters, onFilterChange, onApplyFilters }) => {
+const FilterSidebar = ({ filters, onFilterChange, onApplyFilters }) => {
   const categoryOptions = [
     { value: "", label: "All Categories" },
     { value: "pothole", label: "Pothole" },

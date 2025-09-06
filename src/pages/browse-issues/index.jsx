@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Sidebar from "../dashboard-landing-page/components/Sidebar.jsx";
-import FilterSideBar from "./components/FilterSideBar.jsx";
+import FilterSidebar from "./components/FilterSideBar.jsx";
 import IssuesGrid from "./components/IssuesGrid.jsx";
 // Assuming Tailwind CSS is being used for styling
 
@@ -46,7 +46,7 @@ const BrowseIssues = () => {
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Filter Sidebar */}
           <div className="w-full lg:w-80 flex-shrink-0">
-            <FilterSideBar
+            <FilterSidebar
               filters={filters}
               onFilterChange={handleFilterChange}
               onApplyFilters={handleApplyFilters}
