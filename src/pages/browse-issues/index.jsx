@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "../dashboard-landing-page/components/Sidebar.jsx";
 import FilterSideBar from "./components/FilterSideBar.jsx";
 import IssuesGrid from "./components/IssuesGrid.jsx";
+import FilterSideBar from './components/FilterSideBar.jsx';
 
 const BrowseIssues = () => {
   const [filters, setFilters] = useState({
